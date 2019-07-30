@@ -1,36 +1,48 @@
 item {
 	id: 1
-	name: '17'
+	name: 'Passenger Vehicle'
 }
 item {
 	id: 2
-	name: '18'
+	name: 'Small Car'
 }
 item {
 	id: 3
-	name: '19'
+	name: 'Bus'
 }
 item {
 	id: 4
-	name: '20'
+	name: 'Pickup Truck'
 }
 item {
 	id: 5
-	name: '21'
+	name: 'Utility Truck'
 }
 item {
 	id: 6
-	name: '23'
+	name: 'Truck'
 }
 item {
 	id: 7
-	name: '24'
+	name: 'Cargo Truck'
 }
 item {
 	id: 8
-	name: '73'
+	name: 'Truck w/Box'
 }
 item {
 	id: 9
-	name: '83'
+	name: 'Truck w/Flatbed'
+}
+item {
+	id: 10
+	name: 'Building'
+}
+item {
+	id: 11
+	name: 'Vehicle Lot'
+}
+item {
+	id: 12
+	name: 'Damaged Building'
 }

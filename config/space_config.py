@@ -15,6 +15,7 @@ TEST_RECORD = os.path.sep.join([BASE_PATH,
     "records/testing.record"])
 CLASSES_FILE = os.path.sep.join([BASE_PATH,
     "records/classes.pbtxt"])
+XVIEW_CLASSES = os.path.sep.join([BASE_PATH, "xview_class_labels.txt"])
 
 # initalize the test split size
 TEST_SIZE = 0.25
