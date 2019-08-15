@@ -9,7 +9,7 @@ http://xviewdataset.org/
 
 
 Useage:
-Run **setup.sh **
+Run **setup.sh**
 To sym link tensorflow
 
 Edit **Config.py**
