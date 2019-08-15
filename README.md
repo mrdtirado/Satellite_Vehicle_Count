@@ -9,13 +9,13 @@ http://xviewdataset.org/
 
 
 Useage:
-Run setup.sh 
+Run **setup.sh **
 To sym link tensorflow
 
-Edit Config.py
+Edit **Config.py**
 To point to the location of your files, I have left the directories I used as an example
 
-Run build_space_records.py 
+Run**build_space_records.py**
 in tensorflow models/research directory
 
 This will create your records dataset for tensorflow API by chipping large images into multiple small images while keeping track of their respective bounding boxes.
@@ -37,7 +37,7 @@ Requirements: AWS, geolocations of desired areas, local verison copy of manifest
 https://registry.opendata.aws/naip/
 
 
-Run aws_naip.utils pointing at your directory of geolocations to grab the file names of all relevant satellite geotiffs.
+Run **aws_naip.utils** pointing at your directory of geolocations to grab the file names of all relevant satellite geotiffs.
 This will save a pickle of that list, and will take some time to run.
 
-Then run the main function of naip_processing.py pointing at the pickle file and a directory of shape files, to crop all the geotiffs to a desired square shape around the geolocation of interest and output geotiffs maintining the metadata.
+Then run the main function of **naip_processing.py** pointing at the pickle file and a directory of shape files, to crop all the geotiffs to a desired square shape around the geolocation of interest and output geotiffs maintining the metadata.
