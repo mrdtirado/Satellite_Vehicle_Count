@@ -32,3 +32,12 @@ https://pjreddie.com/darknet/
 Along with the easy to use COWC-M instructions that will create the correct label formats for yolov3
 https://github.com/LLNL/cowc
 
+If you want to utilize NAIP 1m reoslution data with two year national coverage.
+Requirements: AWS, geolocations of desired areas, local verison copy of manifest, as well as every file in the index directories in respective NAIP storage. The script to download all the index files is also in aws_naip.utils
+https://registry.opendata.aws/naip/
+
+
+Run aws_naip.utils pointing at your directory of geolocations to grab the file names of all relevant satellite geotiffs.
+This will save a pickle of that list, and will take some time to run.
+
+Then run the main function of naip_processing.py pointing at the pickle file and a directory of shape files, to crop all the geotiffs to a desired square shape around the geolocation of interest and output geotiffs maintining the metadata.
